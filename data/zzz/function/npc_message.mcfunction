@@ -1,5 +1,8 @@
 execute as @a at @s if score @s talkV matches 1 run scoreboard players operation tmp talkV += @s talkV
 execute as @a at @s if score @s talkV matches 1 run scoreboard players set @s talkV 0
+
+execute if score tmp talkV matches 1..7 as @e[type=armor_stand,tag=npc] at @s facing entity @a[sort=nearest,team=!oni] eyes run tp @s ~ ~ ~ ~ ~
+
 # 要対応 NPCの会話を入力
 execute if score tmp talkV matches 0 run data modify entity @e[tag=npc,type=minecraft:text_display,limit=1] text set value '""'
 execute if score tmp talkV matches 1 run data modify entity @e[tag=npc,type=minecraft:text_display,limit=1] text set value '"ちょっと、みんな…お願い、聞いてくれる？"'
