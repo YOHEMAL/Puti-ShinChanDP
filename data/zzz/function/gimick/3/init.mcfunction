@@ -1,1 +1,0 @@
-scoreboard players set 3 cc 0

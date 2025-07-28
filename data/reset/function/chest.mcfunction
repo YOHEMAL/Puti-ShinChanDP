@@ -6,3 +6,4 @@ function zzz:chest/5
 function zzz:chest/6
 
 function zzz:chest/poop
+function zzz:chest/clean_sock

@@ -1,0 +1,1 @@
+function zzz:gimick/4/init

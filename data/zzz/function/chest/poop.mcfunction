@@ -1,2 +1,2 @@
 # シロのうんち
-place template structure:poop 228 64 95 clockwise_90
+place template structure:poop 337 65 -49 clockwise_90

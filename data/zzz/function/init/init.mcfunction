@@ -12,3 +12,6 @@ spawnpoint @a[team=!oni] 248 66 0
 
 # Send a Message
 tellraw @a [{"text": "[System] 全ての設定をリセットしました","color": "gray"}]
+
+#gimick
+function zzz:gimick/4/init
