@@ -9,6 +9,8 @@ function zzz:npc_message
 function zzz:gimick/4/main
 # gimick-5
 function zzz:gimick/5/main
+# park
+function zzz:gimick/park/main
 
 # ------others--------
 # 要対応 鬼のスポーンポイントを入力
