@@ -10,4 +10,5 @@ spawnpoint @a[team=oni] 203 66 0
 # 要対応 人間のスポーンポイントを入力
 spawnpoint @a[team=!oni] 248 66 0
 
+# Send a Message
 tellraw @a [{"text": "[System] 全ての設定をリセットしました","color": "gray"}]
