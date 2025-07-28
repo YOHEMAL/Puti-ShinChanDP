@@ -15,3 +15,4 @@ tellraw @a [{"text": "[System] 全ての設定をリセットしました","colo
 
 #gimick
 function zzz:gimick/4/init
+function zzz:gimick/5/init

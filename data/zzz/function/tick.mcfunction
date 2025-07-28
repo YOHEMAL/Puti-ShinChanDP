@@ -7,3 +7,11 @@ function zzz:npc_message
 
 # gimick-4
 function zzz:gimick/4/main
+# gimick-5
+function zzz:gimick/5/main
+
+# ------others--------
+# 要対応 鬼のスポーンポイントを入力
+spawnpoint @a[team=oni] 203 66 0
+# 要対応 人間のスポーンポイントを入力
+spawnpoint @a[team=!oni] 248 66 0
