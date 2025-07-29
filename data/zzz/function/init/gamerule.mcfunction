@@ -2,8 +2,8 @@
 gamerule commandBlockOutput false
 
 # コマンド実行時のフィードバックを無効化
-gamerule sendCommandFeedback true
-#gamerule sendCommandFeedback false
+# gamerule sendCommandFeedback true
+gamerule sendCommandFeedback false
 
 # プレイヤーが死亡したときにインベントリを保持する
 gamerule keepInventory true
