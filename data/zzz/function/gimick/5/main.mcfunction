@@ -1,8 +1,8 @@
 execute unless block 184 65 33 chest{Items:[{id:"minecraft:diamond",count:1}]} if score 5 cc matches 0 run scoreboard players add 5 cc 1
 
 # ギミック発動時にプレイヤーにタグ付与と制限時間開始
-execute if score 5 cc matches 1.. positioned 184 65 33 run tag @a[distance=..10,sort=nearest,limit=1] add boo
-execute if score 5 cc matches 1.. positioned 184 65 33 run scoreboard players set @a[distance=..10,sort=nearest,limit=1] boo_timer 0
+execute if score 5 cc matches 1 positioned 184 65 33 run tag @a[distance=..5,sort=nearest,limit=1] add boo
+execute if score 5 cc matches 1 positioned 184 65 33 run scoreboard players set @a[distance=..5,sort=nearest,limit=1] boo_timer 0
 execute if score 5 cc matches 1.. run scoreboard players set 5 cc 100
 
 # おならギミックの制限時間管理（3分 = 3600tick）

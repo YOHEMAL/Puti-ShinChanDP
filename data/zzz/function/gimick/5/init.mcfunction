@@ -3,7 +3,15 @@ scoreboard players set 5 cc 0
 
 tag @a remove boo
 
+# スコアボードリセット（reload時の確実な初期化のため）
 scoreboard objectives remove boo
+scoreboard objectives remove boo_timer
+scoreboard objectives remove temp
+scoreboard objectives remove temp_min
+scoreboard objectives remove temp_sec
+scoreboard objectives remove const
+
+# スコアボード再作成
 scoreboard objectives add boo minecraft.custom:minecraft.sneak_time
 
 # おならギミックの制限時間用スコアボード

@@ -1,3 +1,10 @@
+# スコアボードリセット（reload時の確実な初期化のため）
+scoreboard objectives remove last_diamond_check
+scoreboard objectives remove last_crystal_check
+scoreboard objectives remove last_effect_timer
+scoreboard objectives remove last_particle_timer
+scoreboard objectives remove last_activated
+
 # 最終ギミック用スコアボード初期化
 scoreboard objectives add last_diamond_check dummy "ダイヤモンド所持確認"
 scoreboard objectives add last_crystal_check dummy "プリズマリン所持確認"
