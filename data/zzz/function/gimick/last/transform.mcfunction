@@ -1,0 +1,2 @@
+# Custom Player Models変身コマンド
+cpm setskin @s UwsBAQQtLGdpdDp0YXR1Tm8xLzgxZTNlNGQ1Mjc3MjYzZWE2MTE0MWNlYjE2ZjFiY2I2AAANeQ==

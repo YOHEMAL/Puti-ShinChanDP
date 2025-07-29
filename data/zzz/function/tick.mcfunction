@@ -11,6 +11,8 @@ function zzz:gimick/4/main
 function zzz:gimick/5/main
 # park
 function zzz:gimick/park/main
+# last gimick
+function zzz:gimick/last/main
 
 # ------others--------
 # 要対応 鬼のスポーンポイントを入力
